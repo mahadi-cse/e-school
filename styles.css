@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container{
+    background-color: rgb(237, 255, 250);
+    height: fit-content;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-logo {
+    height: 50px;
+    margin-left: 150px;
+}
+
+.navbar-right {
+    flex-grow: 1;
+    display: flex;
+    justify-content:right;
+}
+
+.navbar-menu {
+    list-style-type: none;
+    margin-right: 100px;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-menu li {
+    margin-left: 20px;
+}
+
+.navbar-menu a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s;
+}
+#sign_in{
+    background-color: rgb(77, 204, 77);
+    border-radius: 10px;
+}
+#sign_in a{
+   color: white;
+}
+.content{
+    display: flex;
+    justify-content:space-evenly;
+
+    margin-top: 85px;
+}
+.left_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.right_content{
+
+}
+.btn_get_start{
+    border: 1px solid green;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(77, 204, 77);
+    color: white;
+    padding: 15px;
+    width: 100px;
+
+}
+
+.learn_red p{
+    color: red;
+}
+.black-text{
+    color: black;
+    font-size: 3.3rem;
+    font-weight: bold;
+   
+}
+.green-text{
+    color: rgb(77, 204, 77);
+    font-size: 3.3rem;
+    font-weight: bold;
+    margin-top: -50px;
+   
+}
+.lorem{
+    color: gray;
+    margin-top: -40px;
+}
+.learn_with_fun{
+    margin-top: -60px;
+}
+.icon{
+    height: 80px;
+    padding-top: 20px;
+}
+.facility{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+    
+}
+.div1,.div2,.div3,.div4{
+    background-color: rgb(231, 245, 241);
+    width: 20vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(46, 45, 45);
+
+}
+.div1:hover,.div2:hover, .div3:hover,.div4:hover{
+    background-color: white;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+}
+
+
+.online_cources{
+    margin-top: 100vh;
+}
+.bold-big{
+    font-weight: 600;
+    font-size: 1.9rem;
+}
+.bold-big + p{
+   margin-top: -5vh;
+}
